@@ -1,0 +1,25 @@
+.table-container {
+  margin: 20px 0;
+}
+
+.reviews-table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.reviews-table th,
+.reviews-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.reviews-table th {
+  background-color: #ebf1f4;
+  font-weight: bold;
+}
+
+.reviews-table tr:hover {
+  background-color: #f1f1f1;
+}
